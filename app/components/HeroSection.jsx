@@ -12,8 +12,9 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <div className="col-span-5">
-          <div className="rounded-full bg-[url('/images/starwarscompu2.png')] hover:bg-[url('/images/profilImage.jpg')] bg-cover w-48 h-48 transition-all duration-500 transform hover:rotate-[360deg]"></div>
+        <div className="col-span-5 place-self-center">
+            <div></div>
+          <div className=" rounded-full relative w-[500px] h-[500px] bg-[url('/images/starwarscompu2.png')] hover:bg-[url('/images/profilImage.jpg')] bg-cover w-48 h-48 transition-all duration-500 transform hover:rotate-[360deg]"></div>
         </div>
       </div>
     </section>
