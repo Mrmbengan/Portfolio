@@ -47,7 +47,7 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Higher Vocational Education Diploma for Frontend Develope</li>
+                <li>Higher Vocational Education Diploma for Frontend Developer</li>
                 <li>Advanced Management / Eazl</li>
             </ul>
         ),
