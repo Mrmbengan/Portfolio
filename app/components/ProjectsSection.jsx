@@ -12,8 +12,8 @@ const projectsData = [
     image:"/images/projects/ReactPortfolio.png",
     link:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tag: ["All", "Web", "Mobile", "React", "Next.js", "Tailwind"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Mrmbengan/Portfolio",
+    previewUrl: "https://portfolio-matias-bengtsson.netlify.app/",
   },
   {
     id:2,
@@ -22,8 +22,8 @@ const projectsData = [
     image:"/images/projects/React-webshop.png",
     link:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tag: ["All", "Web", "Mobile", "React",],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Mrmbengan/new-webshop",
+    previewUrl: "https://kaleidoscopic-pegasus-306971.netlify.app/",
   },
   {
     id:3,
@@ -32,8 +32,8 @@ const projectsData = [
     image:"/images/projects/loopstudioDeskMobile.png",
     link:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tag: ["All","Web", "Mobile", "Tailwind"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Mrmbengan/loopstudiodeskmobile",
+    previewUrl: "https://loopstudiodeskmobile.netlify.app/",
   },
   {
     id:4,
@@ -42,8 +42,8 @@ const projectsData = [
     image:"/images/projects/tailwind-landing.png",
     link:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tag: ["All","Web", "Mobile", "React", "Next.js", "Tailwind"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Mrmbengan/Clipboard1",
+    previewUrl: "https://landingm.netlify.app/",
   },
   {
     id:5,
@@ -53,7 +53,7 @@ const projectsData = [
     link:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     tag: ["All", "Web", "Js"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://mrmbengan.github.io/Rock-Papers-Scissors-js-game/",
   },
   {
     id:6,
