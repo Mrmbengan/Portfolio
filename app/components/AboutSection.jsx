@@ -13,13 +13,9 @@ const TAB_DATA = [
                 <li>TypeScript</li>
                 <li>React</li>
                 <li>Next.js</li>
-                <li>Express.js</li>
-                <li>Redux</li>
                 <li>Node.js</li>
                 <li>MongoDB</li>
                 <li>Mongoose</li>
-                <li>Prisma</li>
-                <li>DataGrid</li>
                 <li>SQL</li>
                 <li>Tailwind CSS</li>
                 <li>Bootstrap</li>
@@ -70,9 +66,9 @@ const AboutSection = () => {
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl-px-16 z-10'>
             <Image src="/images/computer.png" width={500} height={500} alt="computer" />
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                <h2 className='text-4xl font-bold mb-4 text-white'>About Me</h2>
+                <h2 className='text-4xl font-bold mb-4 text-white z-10'>About Me</h2>
                 <p className='text-base md:text-lg py-4 z-10'>I am a Frontend Developer and Fullstack JS Developer with a passion for creating interactive and responsive web applications.
-                 I have experience working with JavaScript, TypeScript, React, Next.js, Express.js , Redux, Node.js, MongoDB, Mongoose, Prisma, DataGrid, SQL.
+                 I have experience working with JavaScript, TypeScript, React, Next.js, Express.js , Node.js, MongoDB, Mongoose, Prisma, DataGrid, SQL.
                   Tailwind CSS, Bootstrap, and other front-end technologies.
                   Also Python who was my first love of coding and PHP with WordPress. 
                   I am a quick learner and i am always looking for new challenges to improve my skills.

@@ -2,12 +2,18 @@
 import React from "react";
 
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="lg:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center">
+        <motion.div 
+          initial={{opacity: 0, scale: 0}} 
+          animate={{opacity: 1, scale: 1}} 
+          transition={{duration: 1.5}} 
+          className="col-span-7 place-self-center text-center"
+        >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-white">
                 Hello, i'm {" "} 
@@ -42,7 +48,7 @@ const HeroSection = () => {
                 <span className="block bg[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
             </button>
           </div>
-        </div>
+        </motion.div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className=" rounded-full relative w-[250px] h-[250px] bg-[url('/images/starwarscompu2.png')] hover:bg-[url('/images/profilImage.jpg')] bg-cover w-48 h-48 transition-all duration-500 transform hover:rotate-[360deg] z-10"></div>
         </div>
