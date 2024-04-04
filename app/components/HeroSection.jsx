@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className=" rounded-full relative w-[250px] h-[250px] bg-[url('/images/starwarscompu2.png')] hover:bg-[url('/images/profilImage.jpg')] bg-cover w-48 h-48 transition-all duration-500 transform hover:rotate-[360deg]"></div>
+          <div className=" rounded-full relative w-[250px] h-[250px] bg-[url('/images/starwarscompu2.png')] hover:bg-[url('/images/profilImage.jpg')] bg-cover w-48 h-48 transition-all duration-500 transform hover:rotate-[360deg] z-10"></div>
         </div>
       </div>
     </section>
