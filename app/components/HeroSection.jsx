@@ -41,11 +41,11 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <div>
-            <button className="text-black px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500  to-white hover:bg-slate-200 hover:scale-[1.1]">
+            <button onClick={() => window.open("https://www.linkedin.com/in/matias-bengtsson/overlay/contact-info/", "_blank")} className="text-black px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500  to-white hover:bg-slate-200 hover:scale-[1.1]">
                 Hire Me
             </button>
-            <button className="text-white px-1 py-1 rounded-full bg-gradient-to-br from-white  to-blue-600 hover:bg-slate-200 hover:scale-[1.1]">
-                <span className="block bg[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
+            <button onClick={() => window.open("https://www.linkedin.com/in/matias-bengtsson/", "_blank")} className="text-white px-6 py-3 rounded-full bg-gradient-to-br from-white  to-blue-600 hover:bg-slate-200 hover:scale-[1.1]">
+                <span className="block bg-gray-900 hover:bg-slate-800 rounded-full px-5">CV</span>
             </button>
           </div>
         </motion.div>
